@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name = "viewport" content="width=device-width, initial-scale=1.0">
+    <title>Origen de la leche recepcionada en plantas lecheras al mes de Febrero (mill. de Litros)</title>        
+    <script src="./scriptsolemne.js" type="module"></script>
+    <style>
+    body {
+        font-family: "times", 'Times New Roman', Times, serif;
+        font-size: 12px;
+    }
+    .bars rect{
+        fill: rgb(95, 231, 255);
+        fill-opacity: 10;
+    }
+    .bars rect:hover{
+        fill: rgb(11, 108, 150);
+    }
+    </style>
+</head>
+<body>
+    <svg width="700" height="250">
+        <g class="labels"></g>
+        <g class="bars" transform="translate(250, 0)"></g>
+        <g class="axis" transform="translate(250, 230)"></g>
+        </svg>
+</body>
+</html>
